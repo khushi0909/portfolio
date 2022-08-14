@@ -394,7 +394,7 @@
         </div>
     </div>
 
-</div>>
+</div>
 <!-- portfolio10ends -->
 <!-- portfolio11 starts  -->
 <div class="portfolio-item">
@@ -422,7 +422,7 @@
 <div class="portfolio-item">
     <div class="portfolio-item-thumbnail">
         <img src="https://i.postimg.cc/mgTjt593/parallaxgridimg.png" alt="portfolio item thumbnail" style="border-radius:0;">
-        <h3 class="portfolio-item-title"></h3>
+        <h3 class="portfolio-item-title">ParralaxGrid effect</h3>
         <button type="button" class="btn view-project-btn">View Project</button>
         <div class="portfolio-item-details">
             <div class="description">
@@ -476,7 +476,13 @@
                 </div>
                 <div class="row">
                     <div class="contact-form">
-                        <form action="">
+                        <form  netlify-honeypot="bot-field" name="contact" method="POST" data-netlify="true"action="">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p class="hidden">
+                                <label>
+                                  Don’t fill this out if you’re human: <input name="bot-field" />
+                                </label>
+                              </p>
                             <div class="row">
                                 <div class="input-group">
                                     <input type="text" placeholder="Name" class="input-control" required>
