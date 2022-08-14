@@ -476,14 +476,15 @@
                 </div>
                 <div class="row">
                     <div class="contact-form">
-                        <form  netlify-honeypot="bot-field" name="contact" method="POST" data-netlify="true"action="">
-                            <input type="hidden" name="form-name" value="contact">
-                            <p class="hidden">
-                                <label>
-                                  Don’t fill this out if you’re human: <input name="bot-field" />
-                                </label>
-                              </p>
+                        <form  name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+
                             <div class="row">
+                                <input type="hidden" name="form-name" value="contact">
+                                <p class="hidden">
+                                    <label>
+                                      Don’t fill this out if you’re human: <input name="bot-field" />
+                                    </label>
+                                  </p>
                                 <div class="input-group">
                                     <input type="text" placeholder="Name" class="input-control" required>
                                 </div>
