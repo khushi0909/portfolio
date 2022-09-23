@@ -8,13 +8,6 @@ _____________________________________*/
 
 
 
-
-
-
-
-
-
-
 /*------------------------------
 Varialbels
 ------------------------------*/
@@ -60,7 +53,7 @@ body{
     padding: 35px 15px;
     /* overflow: hidden; */
 }
-body.hide-scrolling{
+body.;olling{
     overflow-y: hidden;
 }
 body::before{
